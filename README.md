@@ -22,7 +22,7 @@
 - If v13.2.0 or vAnything then you have installed node correctly
 
 # Installing Postman
-- Go to Postman(https://www.getpostman.com/) download it and follow setup instructions.
+- Go to [Postman](https://www.getpostman.com/) download it and follow setup instructions.
 - FYI: It may seem you need to sign up, but **you do not** although you may for free.
 - Using Postman will be explained as needed
 
@@ -59,7 +59,7 @@ will live.
 - Again from the CLI, run the command (you may paste the first from your clipboard): ```/Users/YourName/mongodb/bin/mongod --dbpath=/Users/YourName/mongodb-data```
 - This will start your mongoDB server on port 27017.
 
-# Installing a GUI Admin tool for MongoDB called **ROBO 3T**
+# Installing **ROBO 3T**, a GUI Admin tool for MongoDB.
 - This tool is part of MongoDB and is not required for MongoDB to function properly, however it is highly suggested that this tool be used as it makes managing your data very simple.
 - This tool is for the *Dev* environment **only**.
 - Go to [Robo 3T](https://robomongo.org/)
@@ -86,4 +86,5 @@ appears, select **open shell**.
 - This should return a version back and you are good to go.
 
 ## NPMs used in this project:
-- [EXPRESS](https://www.npmjs.com/package/express)
+- [express](https://www.npmjs.com/package/express)
+- [mongodb](https://www.npmjs.com/package/mongodb) - allows us to interact with our Mongo database from Node. 
